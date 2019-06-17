@@ -1,0 +1,27 @@
+package frontPage;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+
+public class SearchPageTest {
+  WebDriver driver;
+  String baseUrl;
+  @Test
+  public void search() {
+  }
+  
+  @BeforeMethod
+  public void beforeMethod() {
+	 driver = new ChromeDriver();
+	 baseUrl = "https://www.expedia.co.in/";
+	 driver.get(baseUrl);
+  }
+
+  @AfterMethod
+  public void afterMethod() {
+  }
+
+}

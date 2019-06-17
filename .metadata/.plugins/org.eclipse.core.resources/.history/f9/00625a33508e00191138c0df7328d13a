@@ -1,0 +1,6 @@
+package frontPage;
+
+public class FlightsPageFactoryClass {
+	@FindBy(By id = "tab-flight-tab-hp");
+
+}

@@ -1,0 +1,24 @@
+package frontPage;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class FlightsPageFactoryClass {
+	@FindBy(id = "tab-flight-tab-hp")
+	WebElement flightsTab;
+	
+	@FindBy(id = "flight-type-one-way-label-hp-flight")
+	WebElement oneWayButton;
+	
+	@FindBy(xpath = "//input[@id='flight-origin-hp-flight']")
+	WebElement originCityField;
+	
+	@FindBy(xpath = "//input[@id='flight-destination-hp-flight']")
+	WebElement destinationCityField;
+	
+	@FindBy(xpath = "//input[@id='flight-departing-single-hp-flight']")
+	WebElement departDate;
+	
+	@FindBy(xpath='(//button[contains(@class,'action gcw-submit')])[1]')
+	WebElement submitBtn;
+}

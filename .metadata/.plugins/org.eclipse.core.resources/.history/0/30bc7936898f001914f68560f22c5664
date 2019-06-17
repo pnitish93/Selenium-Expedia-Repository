@@ -1,0 +1,39 @@
+package frontPage;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+
+public class SearchPageTest {
+  WebDriver driver;
+  String baseUrl;
+  FlightsPageFactoryClass oneWaySearchPage;
+  @Test
+  public void search() {
+	  
+  }
+  @BeforeClass
+  public void beforeClass() {
+	  driver = new ChromeDriver();
+	  baseUrl = "https://www.expedia.co.in/";
+  }
+  @BeforeMethod
+  public void beforeMethod() {
+	 driver = new ChromeDriver();
+	 baseUrl = "https://www.expedia.co.in/";
+	 driver.get(baseUrl);
+	 driver.manage().window().maximize();
+	 driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+  }
+
+  @AfterMethod
+  public void afterMethod() {
+  }
+
+}
