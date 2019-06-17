@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39644" started-at="2019-06-16T04:17:42Z" finished-at="2019-06-16T04:18:22Z">
+  <suite name="Default suite" duration-ms="56317" started-at="2019-06-17T05:28:25Z" finished-at="2019-06-17T05:29:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39644" started-at="2019-06-16T04:17:42Z" finished-at="2019-06-16T04:18:22Z">
+    <test name="Default test" duration-ms="56317" started-at="2019-06-17T05:28:25Z" finished-at="2019-06-17T05:29:21Z">
       <class name="frontPage.SearchPageTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="beforeClass" is-config="true" duration-ms="14053" started-at="2019-06-16T09:47:42Z" finished-at="2019-06-16T09:47:56Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="beforeClass" is-config="true" duration-ms="31406" started-at="2019-06-17T10:58:25Z" finished-at="2019-06-17T10:58:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="beforeMethod" is-config="true" duration-ms="1376" started-at="2019-06-16T09:47:56Z" finished-at="2019-06-16T09:47:58Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="beforeMethod" is-config="true" duration-ms="1134" started-at="2019-06-17T10:58:56Z" finished-at="2019-06-17T10:58:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="search()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="search" duration-ms="12326" started-at="2019-06-16T09:47:58Z" finished-at="2019-06-16T09:48:10Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="search" duration-ms="10861" started-at="2019-06-17T10:58:57Z" finished-at="2019-06-17T10:59:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="afterMethod" is-config="true" duration-ms="11049" started-at="2019-06-16T09:48:10Z" finished-at="2019-06-16T09:48:21Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="afterMethod" is-config="true" duration-ms="11923" started-at="2019-06-17T10:59:08Z" finished-at="2019-06-17T10:59:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="afterClass" is-config="true" duration-ms="813" started-at="2019-06-16T09:48:21Z" finished-at="2019-06-16T09:48:22Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="afterClass" is-config="true" duration-ms="942" started-at="2019-06-17T10:59:20Z" finished-at="2019-06-17T10:59:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
