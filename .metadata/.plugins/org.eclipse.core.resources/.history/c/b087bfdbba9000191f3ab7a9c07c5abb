@@ -45,7 +45,13 @@ public class FlightsPageFactoryClass {
 	
 	public void provideOriginCity(String cityValue) {
 		originCityField.sendKeys(cityValue);
-		findCity(cityValue);
+		List<WebElement> cityList = driver.findElements(By.xpath("//div[@class='autocomplete-dropdown']//b"));
+		for(WebElement cityEntry:cityList) {
+			if(cityEntry.getText().equalsIgnoreCase(cityValue)) {
+				cityEntry.click();
+				break;
+			}
+		}
 	}
 	
 	public void provideDestCity(String cityValue) {
