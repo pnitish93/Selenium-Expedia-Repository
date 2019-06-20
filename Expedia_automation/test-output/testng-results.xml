@@ -1,29 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56317" started-at="2019-06-17T05:28:25Z" finished-at="2019-06-17T05:29:21Z">
+  <suite name="Default suite" duration-ms="89664" started-at="2019-06-20T18:21:00Z" finished-at="2019-06-20T18:22:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56317" started-at="2019-06-17T05:28:25Z" finished-at="2019-06-17T05:29:21Z">
+    <test name="Default test" duration-ms="89664" started-at="2019-06-20T18:21:00Z" finished-at="2019-06-20T18:22:30Z">
       <class name="frontPage.SearchPageTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="beforeClass" is-config="true" duration-ms="31406" started-at="2019-06-17T10:58:25Z" finished-at="2019-06-17T10:58:56Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="beforeClass" is-config="true" duration-ms="19778" started-at="2019-06-20T23:51:00Z" finished-at="2019-06-20T23:51:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="beforeMethod" is-config="true" duration-ms="1134" started-at="2019-06-17T10:58:56Z" finished-at="2019-06-17T10:58:57Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="beforeMethod" is-config="true" duration-ms="1129" started-at="2019-06-20T23:51:20Z" finished-at="2019-06-20T23:51:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="search()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="search" duration-ms="10861" started-at="2019-06-17T10:58:57Z" finished-at="2019-06-17T10:59:08Z">
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="search" duration-ms="15227" started-at="2019-06-20T23:51:21Z" data-provider="searchInputs" finished-at="2019-06-20T23:51:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[21/07/2019]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="afterMethod" is-config="true" duration-ms="11923" started-at="2019-06-17T10:59:08Z" finished-at="2019-06-17T10:59:20Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="afterMethod" is-config="true" duration-ms="11270" started-at="2019-06-20T23:51:36Z" finished-at="2019-06-20T23:51:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:frontPage.SearchPageTest@548a9f61]" name="afterClass" is-config="true" duration-ms="942" started-at="2019-06-17T10:59:20Z" finished-at="2019-06-17T10:59:21Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2019-06-20T23:51:47Z" finished-at="2019-06-20T23:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="search" duration-ms="11282" started-at="2019-06-20T23:51:47Z" data-provider="searchInputs" finished-at="2019-06-20T23:51:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[06/07/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="afterMethod" is-config="true" duration-ms="10088" started-at="2019-06-20T23:51:59Z" finished-at="2019-06-20T23:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2019-06-20T23:52:09Z" finished-at="2019-06-20T23:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="search" duration-ms="10153" started-at="2019-06-20T23:52:09Z" data-provider="searchInputs" finished-at="2019-06-20T23:52:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guwahati]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[29/06/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="afterMethod" is-config="true" duration-ms="9853" started-at="2019-06-20T23:52:19Z" finished-at="2019-06-20T23:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:frontPage.SearchPageTest@7c16905e]" name="afterClass" is-config="true" duration-ms="834" started-at="2019-06-20T23:52:29Z" finished-at="2019-06-20T23:52:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

@@ -64,7 +64,6 @@ public class FlightsPageFactoryClass {
 	}
 	
 	public void provideDepartDate(String date) {
-		departDate.clear();
 		departDate.sendKeys(date);
 		driver.findElement(By.xpath("//div[@class='hero-banner-box siteId-27 cf hideClassicDcol']")).click();
 	}
