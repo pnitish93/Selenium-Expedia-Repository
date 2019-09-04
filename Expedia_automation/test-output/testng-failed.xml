@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="frontPage.SearchPageTest">
+      <class name="flights.SearchPageTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="search"/>
           <include name="afterClass"/>
+          <include name="searchFlightsPositive" invocation-numbers="0 1"/>
           <include name="afterMethod"/>
           <include name="beforeClass"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- frontPage.SearchPageTest -->
+      </class> <!-- flights.SearchPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
