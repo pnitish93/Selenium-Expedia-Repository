@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Properties>
+		<Property name="flOneWayPath">F:\\Selenium\\Selenium projects\\Expedia_automation\\logFiles</Property>
+	</Properties>
+	<Appenders>
+		<RollingFile name="File" fileName="${flOneWayPath}/app.log" filePattern="${flOneWayPath}/app-%d{dd-MM-yyyy}.log">
+			<PatternLayout pattern="%d{dd-MM-yyyy} %d{HH:mm:ss} %level %c{1} - %msg%n">
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true"></TimeBasedTriggeringPolicy>
+				<SizeBasedTriggeringPolicy size="1MB"></SizeBasedTriggeringPolicy>
+			</Policies>
+		</RollingFile>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="File" />
+		</Root>
+	</Loggers>
+</Configuration>
