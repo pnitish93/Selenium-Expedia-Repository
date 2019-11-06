@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
+	<!-- Please add the path in which you want to place the log file -->
 	<Properties>
 		<Property name="flOneWayPath">F:\\Selenium\\Selenium projects\\Expedia_automation\\logFiles</Property>
 	</Properties>
