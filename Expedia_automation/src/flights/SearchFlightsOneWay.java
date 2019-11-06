@@ -67,7 +67,7 @@ public class SearchFlightsOneWay {
 	  System.setProperty("webdriver.chrome.driver", "F:\\Selenium\\Drivers\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  oneWaySearchPage = new FlightsOneWay(driver);
-	  baseUrl = "https://www.expedia.co.in/";
+	  baseUrl = Constants.URL;
 	  driver.get(baseUrl);
 	  log.info("Launching website in Chrome");
 	  driver.manage().window().maximize();
