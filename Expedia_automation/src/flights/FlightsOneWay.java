@@ -21,40 +21,40 @@ public class FlightsOneWay {
 	WebDriver driver;
 	
 	@FindBy(id = "tab-flight-tab-hp")
-	WebElement flightsTab;
+	private WebElement flightsTab;
 	
 	@FindBy(id = "flight-type-one-way-label-hp-flight")
-	WebElement oneWayButton;
+	private WebElement oneWayButton;
 	
 	@FindBy(xpath = "//input[@id='flight-origin-hp-flight']")
-	WebElement originCityField;
+	private WebElement originCityField;
 	
 	@FindBy(xpath = "//input[@id='flight-destination-hp-flight']")
-	WebElement destinationCityField;
+	private WebElement destinationCityField;
 	
 	@FindBy(xpath = "//input[@id='flight-departing-single-hp-flight']")
-	WebElement departDate;
+	private WebElement departDate;
 	
-	@FindBy(xpath="(//button[@data-gcw-component=\"gcw-traveler-amount-select\"])[position()=1]")
-	WebElement travellers;
+	@FindBy(xpath="(//button[@type = 'button' and contains(@class, 'gcw-traveler-amount')])[position() = 1]")
+	private WebElement travellers;
+	
+	@FindBy(xpath="(//button[@type = 'button' and contains(@class, 'gcw-traveler-amount')])[position() = 2]")
+	private WebElement travellersForHotel;
 	
 	@FindBy(xpath="(//button[contains(@class,'action gcw-submit')])[1]")
-	WebElement submitBtn;
+	private WebElement submitBtn;
 	
 	@FindBy(id="flight-add-hotel-checkbox-hp-flight")
-	WebElement hotelCheckBox;
+	private WebElement hotelCheckBox;
 	
 	@FindBy(xpath="//input[@id='flight-hotel-checkin-hp-flight']")
-	WebElement checkInDate;
+	private WebElement checkInDate;
 	
 	@FindBy(xpath="//input[@id='flight-hotel-checkout-hp-flight']")
-	WebElement checkOutDate;
-	
-	@FindBy(xpath="//div[@class='flight-hotel-room-data']//button[@data-gcw-component='gcw-traveler-amount-select']")
-	WebElement visitorsAndRoom;
+	private WebElement checkOutDate;
 	
 	@FindBy(xpath="//div[@class='hero-banner-box siteId-27 cf hideClassicDcol']")
-	WebElement outside;
+	private WebElement outside;
 	
 	/**
 	 * Constructor
@@ -164,5 +164,9 @@ public class FlightsOneWay {
 	 */
 	public void clickSubmit() {
 		submitBtn.click();
+	}
+	
+	public void selectTravellers(int adults, int children, int infants) {
+		String infantNos = driver.findElement(By.xpath("(//div[@class='infants-wrapper'])[position()=1]//div[contains(@class,'traveler-selector-traveler-field')]")).getText();
 	}
 }
