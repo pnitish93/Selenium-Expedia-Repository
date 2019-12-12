@@ -38,6 +38,15 @@ public class FlightsOneWay {
 	@FindBy(xpath="(//button[@type = 'button' and contains(@class, 'gcw-traveler-amount')])[position() = 1]")
 	private WebElement travellers;
 	
+	@FindBy(xpath="(//div[@class='infants-wrapper'])[position()=1]//div[contains(@class,'traveler-selector-traveler-field')]")
+	private WebElement infantNos;
+	
+	@FindBy(xpath="(//div[@class='children-wrapper'])[position()=1]//div[contains(@class,'traveler-selector-traveler-field')]")
+	private WebElement childrenNos;
+	
+	@FindBy(xpath="((//div[@class='children-wrapper'])[position()=1]//preceding-sibling::div)[position()=1]//span[@class='uitk-step-input-value']")
+	private WebElement AdultNos;
+	
 	@FindBy(xpath="(//button[@type = 'button' and contains(@class, 'gcw-traveler-amount')])[position() = 2]")
 	private WebElement travellersForHotel;
 	
@@ -167,6 +176,6 @@ public class FlightsOneWay {
 	}
 	
 	public void selectTravellers(int adults, int children, int infants) {
-		String infantNos = driver.findElement(By.xpath("(//div[@class='infants-wrapper'])[position()=1]//div[contains(@class,'traveler-selector-traveler-field')]")).getText();
+		
 	}
 }
