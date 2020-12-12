@@ -11,11 +11,13 @@ public class GeneralUtility {
 	 * Finds the best match from the autocomplete list of cities
 	 * @return void
 	 * @param cityValue
-	 * @param cityStatus
+	 * @param cityStatus - origin or destination
 	 */
 	public static void findCity(String cityValue, String cityStatus, WebDriver driver) {
 		String cityValueCapital = capitaliseCity(cityValue);
-		List<WebElement> cityList = null;
+		String cityElement = "//strong[contains(text(),'"+cityValueCapital+"')]";
+		driver.findElement(By.xpath(cityElement)).click();
+		/*List<WebElement> cityList = null;
 		if(cityStatus.equals("origin")) {
 			cityList = driver.findElements(By.xpath("(//div[@class='autocomplete-dropdown'])[1]//li//a"));
 		}
@@ -28,7 +30,7 @@ public class GeneralUtility {
 				cityEntry.click();
 				break;
 			}
-		}
+		}*/
 	}
 	
 	/**
@@ -41,7 +43,7 @@ public class GeneralUtility {
 		for(int i=0; i < cityArray.length; i++) {
 			if(i == 0 && cityArray[i] != ' ' || cityArray[i] != ' ' && cityArray[i-1] == ' ') {
 				if(cityArray[i] >= 'a' && cityArray[i] <= 'z') {
-					cityArray[i] = (char)(cityArray[i]-'a'+'A');
+					cityArray[i] = (char)(cityArray[i]-('a'-'A'));
 				}
 			}
 		}
@@ -86,5 +88,21 @@ public class GeneralUtility {
 			}
 		}
 		return dateButton;
+	}
+	
+	/**
+	 * Splits the comma separated children and infants' ages
+	 * @param ageList
+	 * @return array of Strings
+	 */
+	public static String[] getAges(String ageList) {
+		String[] ages = ageList.split(",");
+		return ages;
+	}
+	
+	public static void setAgesOfMinors(int children, int infants, String childrenAgeList, String infantAgeList) {
+		if(children != 0) {
+			
+		}
 	}
 }

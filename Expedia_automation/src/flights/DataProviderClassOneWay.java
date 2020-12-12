@@ -15,4 +15,10 @@ public class DataProviderClassOneWay {
 		Object[][] objectList = ExcelUtility.getCellData("One-way");
 		return objectList;
 	}
+	@DataProvider(name = "searchInputsFlightsAge")
+	public Object[][] sendInputsFlightsAge(){
+		ExcelUtility.setExcelPath(Constants.path+"\\"+Constants.fileName, "FlightsOnlyPosWAge");
+		Object[][] objectList = ExcelUtility.getCellData("OneWayAge");
+		return objectList;
+	}
 }

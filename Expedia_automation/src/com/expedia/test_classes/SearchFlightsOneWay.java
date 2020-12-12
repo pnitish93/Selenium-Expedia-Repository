@@ -1,6 +1,12 @@
-package flights;
+package com.expedia.test_classes;
 
 import org.testng.annotations.Test;
+
+import com.expedia.base_test_packages.TestConfig;
+
+import flights.DataProviderClassOneWay;
+import flights.FlightsOneWay;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 
@@ -22,20 +28,20 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 
-public class SearchFlightsOneWay {
-	WebDriver driver;
+public class SearchFlightsOneWay extends TestConfig{
 	String baseUrl;
-	static FlightsOneWay oneWaySearchPage;
+	//static FlightsOneWay oneWaySearchPage;
 	public static Logger log = LogManager.getLogger(SearchFlightsOneWay.class.getName());
 
 	/*
 	 * Method for all the common operations for both the test methods
 	 */
-	private static void flightSearchOperation(String from, String to, String date) throws InterruptedException {
+	/*private static void flightSearchOperation(String from, String to, String date) throws InterruptedException {
 		oneWaySearchPage.clickFlightsTab();
 		log.info("clicking flights tab");
 		oneWaySearchPage.clickOneWay();
 		log.info("clicking 'one-way' in flights tab");
+		oneWaySearchPage.clearPopulatedCities();
 		oneWaySearchPage.provideOriginCity(from);
 		log.info("providing origin city for one - way flights # " + from + " to " + to);
 		Thread.sleep(3000);
@@ -44,7 +50,7 @@ public class SearchFlightsOneWay {
 		Thread.sleep(3000);
 		oneWaySearchPage.provideDepartDate(date);
 		log.info("Providing departure date # " + from + " to " + to);
-	}
+	}*/
 
 	public void scrollDownResults(int count) throws InterruptedException {
 		if (count <= 10) {
@@ -69,7 +75,7 @@ public class SearchFlightsOneWay {
 	}
 
 	/**
-	 * Method to search positive cases of one way flights only
+	 * Test case to search one way flights with a future date without any traveller details 
 	 * 
 	 * @param from
 	 * @param to
@@ -77,18 +83,24 @@ public class SearchFlightsOneWay {
 	 * @throws InterruptedException
 	 */
 	@Test(dataProvider = "searchInputsOnlyFlights", dataProviderClass = DataProviderClassOneWay.class)
-	public void searchFlightsOnlyPositive(String from, String to, String date) throws InterruptedException {
-		SearchFlightsOneWay.flightSearchOperation(from, to, date);
+	public void searchFlightsOneWayFutureDate(String from, String to, String date, String adultNos, String childrenNos, String infantNos) throws InterruptedException {
+		//flightSearchOperation(from, to, date); 
+		FlightsOneWay oneWaySearchPage = new FlightsOneWay(driver);
+		//oneWaySearchPage.selectTravellers(Integer.parseInt(adultNos), Integer.parseInt(childrenNos), Integer.parseInt(infantNos));
+		oneWaySearchPage.clickFlightsTab();
+		oneWaySearchPage.clickOneWay();
+		oneWaySearchPage.provideOriginCity(from);
+		oneWaySearchPage.provideDestCity(to);
+		oneWaySearchPage.provideDepartDate(date);
+		oneWaySearchPage.searchFlights();
 		Thread.sleep(2000);
-		oneWaySearchPage.clickSubmit();
-		log.info("clicking on the 'submit' button # " + from + " to " + to);
 		// Explicit Wait waits for the appearance of result section
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		WebElement resultText = wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//span[contains(text(), 'Select your departure to')]")));
-		//Uncomment the following method call to scroll through results within 10 times (specified in argument)
+		//--Optional--Uncomment the following method call to scroll through results within 10 times (specified in argument)
 		//scrollDownResults(5);
-		//Uncomment the following method call to scroll till the end
+		//--Optional--Uncomment the following method call to scroll till the end
 		//scrollToEnd();
 	}
 
@@ -102,7 +114,7 @@ public class SearchFlightsOneWay {
 	 * @param checkOutDt
 	 * @throws InterruptedException
 	 */
-	@Test(dataProvider = "searchInputs", dataProviderClass = DataProviderClassOneWay.class)
+	/*@Test(dataProvider = "searchInputs", dataProviderClass = DataProviderClassOneWay.class, enabled=false)
 	public void searchFlightsWithHotelPositive(String from, String to, String date, String checkInDt, String checkOutDt)
 			throws InterruptedException {
 		flightSearchOperation(from, to, date);
@@ -110,7 +122,7 @@ public class SearchFlightsOneWay {
 		oneWaySearchPage.provideCheckInDate(checkInDt);
 		Thread.sleep(3000);
 		oneWaySearchPage.provideCheckOutDate(checkOutDt);
-		oneWaySearchPage.clickSubmit();
+		oneWaySearchPage.searchFlights();
 		// Explicit Wait waits for the appearance of result section
 		WebDriverWait hotelWait = new WebDriverWait(driver, 15);
 		WebElement resultIndicator = hotelWait.until(ExpectedConditions
@@ -119,33 +131,6 @@ public class SearchFlightsOneWay {
 		//scrollDownResults(5);
 		//Uncomment the following method call to scroll till the end
 		//scrollToEnd();
-	}
-
-	@BeforeClass
-	public void beforeClass() {
-		System.setProperty("webdriver.chrome.driver", "F:\\Selenium\\Drivers\\chromedriver.exe");
-		driver = new ChromeDriver();
-		oneWaySearchPage = new FlightsOneWay(driver);
-		baseUrl = Constants.URL;
-		driver.get(baseUrl);
-		log.info("Launching website in Chrome");
-		driver.manage().window().maximize();
-	}
-
-	@BeforeMethod
-	public void beforeMethod() {
-		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-	}
-
-	@AfterMethod
-	public void afterMethod() throws InterruptedException {
-		Thread.sleep(4000);
-		driver.navigate().back();
-	}
-
-	@AfterClass(alwaysRun = false)
-	public void afterClass() {
-		driver.quit();
-	}
+	}*/
 
 }
