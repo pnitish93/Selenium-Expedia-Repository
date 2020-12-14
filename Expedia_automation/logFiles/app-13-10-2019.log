@@ -1,0 +1,34 @@
+16:34:35.047 INFO  SearchFlightsOneWay -Launching website in Chrome
+16:34:39.855 INFO  SearchFlightsOneWay -clicking flights tab
+16:34:40.467 INFO  SearchFlightsOneWay -clicking 'one-way' in flights tab
+16:34:41.977 INFO  SearchFlightsOneWay -providing origin city for one - way flights
+16:34:45.806 INFO  SearchFlightsOneWay -providing destination city for one - way flights
+16:34:51.525 INFO  SearchFlightsOneWay -Providing departure date
+16:35:01.240 INFO  SearchFlightsOneWay -clicking on the 'submit' button
+16:35:12.037 INFO  SearchFlightsOneWay -clicking flights tab
+16:35:12.139 INFO  SearchFlightsOneWay -clicking 'one-way' in flights tab
+16:35:12.955 INFO  SearchFlightsOneWay -providing origin city for one - way flights
+16:35:16.821 INFO  SearchFlightsOneWay -providing destination city for one - way flights
+16:35:25.443 INFO  SearchFlightsOneWay -Providing departure date
+16:35:35.857 INFO  SearchFlightsOneWay -clicking on the 'submit' button
+16:35:45.165 INFO  SearchFlightsOneWay -clicking flights tab
+16:35:45.277 INFO  SearchFlightsOneWay -clicking 'one-way' in flights tab
+16:35:46.502 INFO  SearchFlightsOneWay -providing origin city for one - way flights
+16:35:50.495 INFO  SearchFlightsOneWay -providing destination city for one - way flights
+16:35:56.320 INFO  SearchFlightsOneWay -Providing departure date
+16:36:34.041 INFO  SearchFlightsOneWay -clicking on the 'submit' button
+16:36:43.528 INFO  SearchFlightsOneWay -clicking flights tab
+16:36:43.674 INFO  SearchFlightsOneWay -clicking 'one-way' in flights tab
+16:36:44.840 INFO  SearchFlightsOneWay -providing origin city for one - way flights
+16:36:48.693 INFO  SearchFlightsOneWay -providing destination city for one - way flights
+16:36:54.189 INFO  SearchFlightsOneWay -Providing departure date
+16:37:14.171 INFO  SearchFlightsOneWay -clicking flights tab
+16:37:14.282 INFO  SearchFlightsOneWay -clicking 'one-way' in flights tab
+16:37:15.232 INFO  SearchFlightsOneWay -providing origin city for one - way flights
+16:37:19.127 INFO  SearchFlightsOneWay -providing destination city for one - way flights
+16:37:27.800 INFO  SearchFlightsOneWay -Providing departure date
+16:37:50.390 INFO  SearchFlightsOneWay -clicking flights tab
+16:37:50.544 INFO  SearchFlightsOneWay -clicking 'one-way' in flights tab
+16:37:51.768 INFO  SearchFlightsOneWay -providing origin city for one - way flights
+16:37:55.718 INFO  SearchFlightsOneWay -providing destination city for one - way flights
+16:38:01.466 INFO  SearchFlightsOneWay -Providing departure date

@@ -1,0 +1,23 @@
+04-11-2019 14:31:30 INFO SearchFlightsOneWay - Launching website in Chrome
+04-11-2019 14:31:35 INFO SearchFlightsOneWay - clicking flights tab
+04-11-2019 14:31:36 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+04-11-2019 14:31:38 INFO SearchFlightsOneWay - providing origin city for one - way flights # Bengaluru to Kolkata
+04-11-2019 14:31:42 INFO SearchFlightsOneWay - providing destination city for one - way flights # Bengaluru to Kolkata
+04-11-2019 14:31:48 INFO SearchFlightsOneWay - Providing departure date # Bengaluru to Kolkata
+04-11-2019 14:31:54 INFO SearchFlightsOneWay - clicking on the 'submit' button # Bengaluru to Kolkata
+04-11-2019 14:32:06 INFO SearchFlightsOneWay - clicking flights tab
+04-11-2019 14:32:06 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+04-11-2019 14:32:08 INFO SearchFlightsOneWay - providing origin city for one - way flights # Mumbai to Delhi
+04-11-2019 14:32:12 INFO SearchFlightsOneWay - providing destination city for one - way flights # Mumbai to Delhi
+04-11-2019 14:32:18 INFO SearchFlightsOneWay - Providing departure date # Mumbai to Delhi
+04-11-2019 14:32:23 INFO SearchFlightsOneWay - clicking on the 'submit' button # Mumbai to Delhi
+04-11-2019 14:32:35 INFO SearchFlightsOneWay - clicking flights tab
+04-11-2019 14:32:35 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+04-11-2019 14:32:36 INFO SearchFlightsOneWay - providing origin city for one - way flights # Hyderabad to London
+04-11-2019 14:32:41 INFO SearchFlightsOneWay - providing destination city for one - way flights # Hyderabad to London
+04-11-2019 14:32:47 INFO SearchFlightsOneWay - Providing departure date # Hyderabad to London
+04-11-2019 14:32:49 INFO SearchFlightsOneWay - clicking on the 'submit' button # Hyderabad to London
+04-11-2019 16:08:44 INFO SearchFlightsOneWay - Launching website in Chrome
+04-11-2019 16:17:51 INFO SearchFlightsOneWay - Launching website in Chrome
+04-11-2019 16:24:46 INFO SearchFlightsOneWay - Launching website in Chrome
+04-11-2019 16:49:36 INFO SearchFlightsOneWay - Launching website in Chrome

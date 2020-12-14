@@ -1,0 +1,32 @@
+22-12-2019 15:51:23 INFO SearchFlightsOneWay - Launching website in Chrome
+22-12-2019 16:01:15 INFO SearchFlightsOneWay - Launching website in Chrome
+22-12-2019 16:02:59 INFO SearchFlightsOneWay - Launching website in Chrome
+22-12-2019 16:03:05 INFO SearchFlightsOneWay - clicking flights tab
+22-12-2019 16:03:05 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+22-12-2019 16:03:07 INFO SearchFlightsOneWay - providing origin city for one - way flights # Delhi to Washington
+22-12-2019 16:03:12 INFO SearchFlightsOneWay - providing destination city for one - way flights # Delhi to Washington
+22-12-2019 16:36:56 INFO SearchFlightsOneWay - Launching website in Chrome
+22-12-2019 16:37:01 INFO SearchFlightsOneWay - clicking flights tab
+22-12-2019 16:37:02 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+22-12-2019 16:37:04 INFO SearchFlightsOneWay - providing origin city for one - way flights # Bengaluru to Mumbai
+22-12-2019 16:37:08 INFO SearchFlightsOneWay - providing destination city for one - way flights # Bengaluru to Mumbai
+22-12-2019 16:37:13 INFO SearchFlightsOneWay - Providing departure date # Bengaluru to Mumbai
+22-12-2019 17:12:15 INFO SearchFlightsOneWay - Launching website in Chrome
+22-12-2019 17:12:20 INFO SearchFlightsOneWay - clicking flights tab
+22-12-2019 17:12:21 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+22-12-2019 17:12:22 INFO SearchFlightsOneWay - providing origin city for one - way flights # Bengaluru to Mumbai
+22-12-2019 17:12:26 INFO SearchFlightsOneWay - providing destination city for one - way flights # Bengaluru to Mumbai
+22-12-2019 17:12:31 INFO SearchFlightsOneWay - Providing departure date # Bengaluru to Mumbai
+22-12-2019 17:31:08 INFO SearchFlightsOneWay - Launching website in Chrome
+22-12-2019 17:31:13 INFO SearchFlightsOneWay - clicking flights tab
+22-12-2019 17:31:13 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+22-12-2019 17:31:15 INFO SearchFlightsOneWay - providing origin city for one - way flights # Bengaluru to Mumbai
+22-12-2019 17:31:18 INFO SearchFlightsOneWay - providing destination city for one - way flights # Bengaluru to Mumbai
+22-12-2019 17:31:24 INFO SearchFlightsOneWay - Providing departure date # Bengaluru to Mumbai
+22-12-2019 17:32:06 INFO SearchFlightsOneWay - Launching website in Chrome
+22-12-2019 17:32:11 INFO SearchFlightsOneWay - clicking flights tab
+22-12-2019 17:32:12 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+22-12-2019 17:32:13 INFO SearchFlightsOneWay - providing origin city for one - way flights # Bengaluru to Mumbai
+22-12-2019 17:32:17 INFO SearchFlightsOneWay - providing destination city for one - way flights # Bengaluru to Mumbai
+22-12-2019 17:32:22 INFO SearchFlightsOneWay - Providing departure date # Bengaluru to Mumbai
+22-12-2019 17:37:22 INFO SearchFlightsOneWay - Launching website in Chrome

@@ -1,0 +1,37 @@
+26-10-2019 09:26:58 INFO SearchFlightsOneWay - Launching website in Chrome
+26-10-2019 09:27:04 INFO SearchFlightsOneWay - clicking flights tab
+26-10-2019 09:27:04 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+26-10-2019 09:34:36 INFO SearchFlightsOneWay - Launching website in Chrome
+26-10-2019 09:34:40 INFO SearchFlightsOneWay - clicking flights tab
+26-10-2019 09:34:41 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+26-10-2019 09:34:42 INFO SearchFlightsOneWay - providing origin city for one - way flights # Bengaluru to Kolkata
+26-10-2019 09:34:46 INFO SearchFlightsOneWay - providing destination city for one - way flights # Bengaluru to Kolkata
+26-10-2019 09:34:52 INFO SearchFlightsOneWay - Providing departure date # Bengaluru to Kolkata
+26-10-2019 09:34:58 INFO SearchFlightsOneWay - clicking on the 'submit' button # Bengaluru to Kolkata
+26-10-2019 09:35:08 INFO SearchFlightsOneWay - clicking flights tab
+26-10-2019 09:35:08 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+26-10-2019 09:35:09 INFO SearchFlightsOneWay - providing origin city for one - way flights # Mumbai to Delhi
+26-10-2019 09:35:13 INFO SearchFlightsOneWay - providing destination city for one - way flights # Mumbai to Delhi
+26-10-2019 09:35:21 INFO SearchFlightsOneWay - Providing departure date # Mumbai to Delhi
+26-10-2019 09:35:27 INFO SearchFlightsOneWay - clicking on the 'submit' button # Mumbai to Delhi
+26-10-2019 09:35:42 INFO SearchFlightsOneWay - clicking flights tab
+26-10-2019 09:35:42 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+26-10-2019 09:35:43 INFO SearchFlightsOneWay - providing origin city for one - way flights # Hyderabad to London
+26-10-2019 09:35:47 INFO SearchFlightsOneWay - providing destination city for one - way flights # Hyderabad to London
+26-10-2019 09:35:52 INFO SearchFlightsOneWay - Providing departure date # Hyderabad to London
+26-10-2019 09:35:57 INFO SearchFlightsOneWay - clicking on the 'submit' button # Hyderabad to London
+26-10-2019 09:36:09 INFO SearchFlightsOneWay - clicking flights tab
+26-10-2019 09:36:09 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+26-10-2019 09:36:10 INFO SearchFlightsOneWay - providing origin city for one - way flights # Bengaluru to Kolkata
+26-10-2019 09:36:14 INFO SearchFlightsOneWay - providing destination city for one - way flights # Bengaluru to Kolkata
+26-10-2019 09:36:19 INFO SearchFlightsOneWay - Providing departure date # Bengaluru to Kolkata
+26-10-2019 09:36:41 INFO SearchFlightsOneWay - clicking flights tab
+26-10-2019 09:36:41 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+26-10-2019 09:36:41 INFO SearchFlightsOneWay - providing origin city for one - way flights # Mumbai to Delhi
+26-10-2019 09:36:45 INFO SearchFlightsOneWay - providing destination city for one - way flights # Mumbai to Delhi
+26-10-2019 09:36:54 INFO SearchFlightsOneWay - Providing departure date # Mumbai to Delhi
+26-10-2019 09:37:18 INFO SearchFlightsOneWay - clicking flights tab
+26-10-2019 09:37:18 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+26-10-2019 09:37:19 INFO SearchFlightsOneWay - providing origin city for one - way flights # Hyderabad to London
+26-10-2019 09:37:23 INFO SearchFlightsOneWay - providing destination city for one - way flights # Hyderabad to London
+26-10-2019 09:37:28 INFO SearchFlightsOneWay - Providing departure date # Hyderabad to London

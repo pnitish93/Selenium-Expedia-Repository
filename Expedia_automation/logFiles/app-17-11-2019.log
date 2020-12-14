@@ -1,0 +1,62 @@
+17-11-2019 11:47:22 INFO SearchFlightsOneWay - Launching website in Chrome
+17-11-2019 11:47:35 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 11:47:35 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 11:47:37 INFO SearchFlightsOneWay - providing origin city for one - way flights # Bengaluru to Mumbai
+17-11-2019 11:47:40 INFO SearchFlightsOneWay - providing destination city for one - way flights # Bengaluru to Mumbai
+17-11-2019 11:47:46 INFO SearchFlightsOneWay - Providing departure date # Bengaluru to Mumbai
+17-11-2019 11:47:51 INFO SearchFlightsOneWay - clicking on the 'submit' button # Bengaluru to Mumbai
+17-11-2019 11:48:00 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 11:48:01 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 11:48:02 INFO SearchFlightsOneWay - providing origin city for one - way flights # Bhubaneshwar to Hyderabad
+17-11-2019 11:48:06 INFO SearchFlightsOneWay - providing destination city for one - way flights # Bhubaneshwar to Hyderabad
+17-11-2019 11:48:15 INFO SearchFlightsOneWay - Providing departure date # Bhubaneshwar to Hyderabad
+17-11-2019 11:48:20 INFO SearchFlightsOneWay - clicking on the 'submit' button # Bhubaneshwar to Hyderabad
+17-11-2019 11:48:29 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 11:48:29 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 11:48:30 INFO SearchFlightsOneWay - providing origin city for one - way flights # New Delhi to Chennai
+17-11-2019 11:48:34 INFO SearchFlightsOneWay - providing destination city for one - way flights # New Delhi to Chennai
+17-11-2019 11:48:40 INFO SearchFlightsOneWay - Providing departure date # New Delhi to Chennai
+17-11-2019 11:48:45 INFO SearchFlightsOneWay - clicking on the 'submit' button # New Delhi to Chennai
+17-11-2019 11:48:55 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 11:48:55 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 11:48:56 INFO SearchFlightsOneWay - providing origin city for one - way flights # Chennai to Trivandrum
+17-11-2019 11:49:00 INFO SearchFlightsOneWay - providing destination city for one - way flights # Chennai to Trivandrum
+17-11-2019 11:49:06 INFO SearchFlightsOneWay - Providing departure date # Chennai to Trivandrum
+17-11-2019 11:49:11 INFO SearchFlightsOneWay - clicking on the 'submit' button # Chennai to Trivandrum
+17-11-2019 11:49:21 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 11:49:21 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 11:49:21 INFO SearchFlightsOneWay - providing origin city for one - way flights # New Delhi to Mumbai
+17-11-2019 11:49:25 INFO SearchFlightsOneWay - providing destination city for one - way flights # New Delhi to Mumbai
+17-11-2019 11:53:20 INFO SearchFlightsOneWay - Launching website in Chrome
+17-11-2019 11:53:25 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 11:53:25 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 11:53:27 INFO SearchFlightsOneWay - providing origin city for one - way flights # New Delhi to Washington
+17-11-2019 11:53:31 INFO SearchFlightsOneWay - providing destination city for one - way flights # New Delhi to Washington
+17-11-2019 11:53:37 INFO SearchFlightsOneWay - Providing departure date # New Delhi to Washington
+17-11-2019 11:53:56 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 11:53:56 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 11:53:57 INFO SearchFlightsOneWay - providing origin city for one - way flights # Mumbai to London
+17-11-2019 11:54:01 INFO SearchFlightsOneWay - providing destination city for one - way flights # Mumbai to London
+17-11-2019 11:54:07 INFO SearchFlightsOneWay - Providing departure date # Mumbai to London
+17-11-2019 12:34:07 INFO SearchFlightsOneWay - Launching website in Chrome
+17-11-2019 12:34:12 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 12:34:12 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 12:34:14 INFO SearchFlightsOneWay - providing origin city for one - way flights # New Delhi to Washington
+17-11-2019 12:34:18 INFO SearchFlightsOneWay - providing destination city for one - way flights # New Delhi to Washington
+17-11-2019 12:34:24 INFO SearchFlightsOneWay - Providing departure date # New Delhi to Washington
+17-11-2019 12:34:52 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 12:34:53 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 12:34:53 INFO SearchFlightsOneWay - providing origin city for one - way flights # Mumbai to London
+17-11-2019 12:34:57 INFO SearchFlightsOneWay - providing destination city for one - way flights # Mumbai to London
+17-11-2019 12:35:03 INFO SearchFlightsOneWay - Providing departure date # Mumbai to London
+17-11-2019 12:36:43 INFO SearchFlightsOneWay - Launching website in Chrome
+17-11-2019 12:36:48 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 12:36:48 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 12:36:50 INFO SearchFlightsOneWay - providing origin city for one - way flights # New Delhi to Washington
+17-11-2019 12:36:54 INFO SearchFlightsOneWay - providing destination city for one - way flights # New Delhi to Washington
+17-11-2019 12:37:00 INFO SearchFlightsOneWay - Providing departure date # New Delhi to Washington
+17-11-2019 12:37:26 INFO SearchFlightsOneWay - clicking flights tab
+17-11-2019 12:37:27 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+17-11-2019 12:37:27 INFO SearchFlightsOneWay - providing origin city for one - way flights # Mumbai to London
+17-11-2019 12:37:31 INFO SearchFlightsOneWay - providing destination city for one - way flights # Mumbai to London
+17-11-2019 12:37:37 INFO SearchFlightsOneWay - Providing departure date # Mumbai to London

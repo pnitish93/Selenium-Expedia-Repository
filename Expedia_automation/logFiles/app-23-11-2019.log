@@ -1,0 +1,52 @@
+23-11-2019 12:39:20 INFO SearchFlightsOneWay - Launching website in Chrome
+23-11-2019 12:39:27 INFO SearchFlightsOneWay - clicking flights tab
+23-11-2019 12:39:27 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+23-11-2019 12:39:32 INFO SearchFlightsOneWay - providing origin city for one - way flights # Delhi to mumbai
+23-11-2019 12:39:37 INFO SearchFlightsOneWay - providing destination city for one - way flights # Delhi to mumbai
+23-11-2019 12:40:41 INFO SearchFlightsOneWay - Launching website in Chrome
+23-11-2019 12:40:46 INFO SearchFlightsOneWay - clicking flights tab
+23-11-2019 12:40:46 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+23-11-2019 12:40:47 INFO SearchFlightsOneWay - providing origin city for one - way flights # Delhi to mumbai
+23-11-2019 12:40:51 INFO SearchFlightsOneWay - providing destination city for one - way flights # Delhi to mumbai
+23-11-2019 12:41:00 INFO SearchFlightsOneWay - Providing departure date # Delhi to mumbai
+23-11-2019 12:41:06 INFO SearchFlightsOneWay - clicking on the 'submit' button # Delhi to mumbai
+23-11-2019 12:41:30 INFO SearchFlightsOneWay - clicking flights tab
+23-11-2019 12:41:31 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+23-11-2019 12:41:32 INFO SearchFlightsOneWay - providing origin city for one - way flights # new york to delhi
+23-11-2019 12:41:36 INFO SearchFlightsOneWay - providing destination city for one - way flights # new york to delhi
+23-11-2019 12:41:41 INFO SearchFlightsOneWay - Providing departure date # new york to delhi
+23-11-2019 14:31:51 INFO SearchFlightsOneWay - Launching website in Chrome
+23-11-2019 14:31:57 INFO SearchFlightsOneWay - clicking flights tab
+23-11-2019 14:31:58 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+23-11-2019 14:31:59 INFO SearchFlightsOneWay - providing origin city for one - way flights # Delhi to mumbai
+23-11-2019 14:32:03 INFO SearchFlightsOneWay - providing destination city for one - way flights # Delhi to mumbai
+23-11-2019 14:32:11 INFO SearchFlightsOneWay - Providing departure date # Delhi to mumbai
+23-11-2019 14:32:21 INFO SearchFlightsOneWay - clicking on the 'submit' button # Delhi to mumbai
+23-11-2019 14:37:31 INFO SearchFlightsOneWay - Launching website in Chrome
+23-11-2019 14:37:35 INFO SearchFlightsOneWay - clicking flights tab
+23-11-2019 14:37:35 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+23-11-2019 14:37:36 INFO SearchFlightsOneWay - providing origin city for one - way flights # Delhi to mumbai
+23-11-2019 14:37:40 INFO SearchFlightsOneWay - providing destination city for one - way flights # Delhi to mumbai
+23-11-2019 14:37:49 INFO SearchFlightsOneWay - Providing departure date # Delhi to mumbai
+23-11-2019 14:38:03 INFO SearchFlightsOneWay - clicking on the 'submit' button # Delhi to mumbai
+23-11-2019 17:01:49 INFO SearchFlightsOneWay - Launching website in Chrome
+23-11-2019 17:01:59 INFO SearchFlightsOneWay - clicking flights tab
+23-11-2019 17:02:00 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+23-11-2019 17:02:01 INFO SearchFlightsOneWay - providing origin city for one - way flights # Delhi to mumbai
+23-11-2019 17:02:05 INFO SearchFlightsOneWay - providing destination city for one - way flights # Delhi to mumbai
+23-11-2019 17:02:14 INFO SearchFlightsOneWay - Providing departure date # Delhi to mumbai
+23-11-2019 17:02:22 INFO SearchFlightsOneWay - clicking on the 'submit' button # Delhi to mumbai
+23-11-2019 17:08:38 INFO SearchFlightsOneWay - Launching website in Chrome
+23-11-2019 17:08:44 INFO SearchFlightsOneWay - clicking flights tab
+23-11-2019 17:08:44 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+23-11-2019 17:08:45 INFO SearchFlightsOneWay - providing origin city for one - way flights # Delhi to mumbai
+23-11-2019 17:08:49 INFO SearchFlightsOneWay - providing destination city for one - way flights # Delhi to mumbai
+23-11-2019 17:08:58 INFO SearchFlightsOneWay - Providing departure date # Delhi to mumbai
+23-11-2019 17:09:10 INFO SearchFlightsOneWay - clicking on the 'submit' button # Delhi to mumbai
+23-11-2019 23:37:03 INFO SearchFlightsOneWay - Launching website in Chrome
+23-11-2019 23:37:14 INFO SearchFlightsOneWay - clicking flights tab
+23-11-2019 23:37:14 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+23-11-2019 23:37:16 INFO SearchFlightsOneWay - providing origin city for one - way flights # Delhi to mumbai
+23-11-2019 23:37:20 INFO SearchFlightsOneWay - providing destination city for one - way flights # Delhi to mumbai
+23-11-2019 23:37:29 INFO SearchFlightsOneWay - Providing departure date # Delhi to mumbai
+23-11-2019 23:37:37 INFO SearchFlightsOneWay - clicking on the 'submit' button # Delhi to mumbai

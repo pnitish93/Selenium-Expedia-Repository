@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="588"/>
+		<item key="DIALOG_Y_ORIGIN" value="23"/>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="-1" key="dialogHeight"/>
-		<item value="-1" key="dialogWidth"/>
+		<item key="dialogHeight" value="-1"/>
+		<item key="dialogWidth" value="-1"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -13,9 +17,12 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.testng.eclipse.wizards.NewTestNGClassWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.testng.eclipse.wizards.NewTestNGClassWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.testng.eclipse"/>
+			<item value="org.eclipse.wst.XMLCategory"/>
 		</list>
+	</section>
+	<section name="ImportExportAction">
 	</section>
 </section>
