@@ -1,4 +1,4 @@
-package flights;
+package com.expedia.page_classes;
 
 import java.util.List;
 

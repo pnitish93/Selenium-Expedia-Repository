@@ -2,7 +2,7 @@ package com.expedia.base_test_packages;
 
 import org.testng.annotations.Test;
 
-import flights.Constants;
+import com.expedia.page_classes.Constants;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;

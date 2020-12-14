@@ -3,9 +3,8 @@ package com.expedia.test_classes;
 import org.testng.annotations.Test;
 
 import com.expedia.base_test_packages.TestConfig;
-
-import flights.DataProviderClassOneWay;
-import flights.FlightsOneWay;
+import com.expedia.page_classes.DataProviderClassOneWay;
+import com.expedia.page_classes.FlightsOneWay;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;

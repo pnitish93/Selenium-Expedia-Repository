@@ -1,4 +1,4 @@
-package flights;
+package com.expedia.page_classes;
 
 /*
  * In the following files define the path and file name according to your system.
