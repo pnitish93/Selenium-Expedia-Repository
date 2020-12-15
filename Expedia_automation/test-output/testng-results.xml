@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51201" started-at="2020-12-11T06:35:00Z" finished-at="2020-12-11T06:35:51Z">
+  <suite name="Default suite" duration-ms="67995" started-at="2020-12-15T06:38:56Z" finished-at="2020-12-15T06:40:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51201" started-at="2020-12-11T06:35:00Z" finished-at="2020-12-11T06:35:51Z">
-      <class name="flights.SearchFlightsOneWay">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:flights.SearchFlightsOneWay@36bc55de]" name="beforeClass" is-config="true" duration-ms="23912" started-at="2020-12-11T12:05:00Z" finished-at="2020-12-11T12:05:24Z">
+    <test name="Default test" duration-ms="67995" started-at="2020-12-15T06:38:56Z" finished-at="2020-12-15T06:40:04Z">
+      <class name="com.expedia.test_classes.SearchFlightsOneWay">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="beforeClass" is-config="true" duration-ms="30244" started-at="2020-12-15T12:08:56Z" finished-at="2020-12-15T12:09:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flights.SearchFlightsOneWay@36bc55de]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2020-12-11T12:05:25Z" finished-at="2020-12-11T12:05:25Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="beforeMethod" is-config="true" duration-ms="21" started-at="2020-12-15T12:09:35Z" finished-at="2020-12-15T12:09:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="searchFlightsOnlyPositive(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:flights.SearchFlightsOneWay@36bc55de]" name="searchFlightsOnlyPositive" duration-ms="10295" started-at="2020-12-11T12:05:25Z" data-provider="searchInputsOnlyFlights" finished-at="2020-12-11T12:05:36Z">
+        <test-method status="PASS" signature="isOneWayFlightSearchSuccess(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="isOneWayFlightSearchSuccess" duration-ms="14055" started-at="2020-12-15T12:09:35Z" data-provider="searchInputsOnlyFlights" finished-at="2020-12-15T12:09:49Z">
           <params>
             <param index="0">
               <value>
@@ -50,28 +50,28 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchFlightsOnlyPositive -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flights.SearchFlightsOneWay@36bc55de]" name="afterMethod" is-config="true" duration-ms="10247" started-at="2020-12-11T12:05:36Z" finished-at="2020-12-11T12:05:46Z">
+        </test-method> <!-- isOneWayFlightSearchSuccess -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="afterMethod" is-config="true" duration-ms="9464" started-at="2020-12-15T12:09:49Z" finished-at="2020-12-15T12:09:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:flights.SearchFlightsOneWay@36bc55de]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2020-12-11T12:05:46Z" finished-at="2020-12-11T12:05:46Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="beforeMethod" is-config="true" duration-ms="25" started-at="2020-12-15T12:09:58Z" finished-at="2020-12-15T12:09:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:flights.SearchFlightsOneWay@36bc55de]" name="f" duration-ms="3" started-at="2020-12-11T12:05:46Z" finished-at="2020-12-11T12:05:46Z">
+        <test-method status="PASS" signature="baseTest()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="baseTest" duration-ms="2" started-at="2020-12-15T12:09:58Z" finished-at="2020-12-15T12:09:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:flights.SearchFlightsOneWay@36bc55de]" name="afterMethod" is-config="true" duration-ms="4218" started-at="2020-12-11T12:05:46Z" finished-at="2020-12-11T12:05:50Z">
+        </test-method> <!-- baseTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="afterMethod" is-config="true" duration-ms="4202" started-at="2020-12-15T12:09:58Z" finished-at="2020-12-15T12:10:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:flights.SearchFlightsOneWay@36bc55de]" name="afterClass" is-config="true" duration-ms="1009" started-at="2020-12-11T12:05:50Z" finished-at="2020-12-11T12:05:51Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="afterClass" is-config="true" duration-ms="1162" started-at="2020-12-15T12:10:02Z" finished-at="2020-12-15T12:10:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- flights.SearchFlightsOneWay -->
+      </class> <!-- com.expedia.test_classes.SearchFlightsOneWay -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

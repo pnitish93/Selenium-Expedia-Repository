@@ -1,0 +1,5 @@
+15-12-2020 12:09:36 INFO SearchFlightsOneWay - clicking 'one-way' in flights tab
+15-12-2020 12:09:37 INFO SearchFlightsOneWay - providing origin city for one - way flights # Bengaluru
+15-12-2020 12:09:38 INFO SearchFlightsOneWay - providing destination city for one - way flights as Mumbai
+15-12-2020 12:09:39 INFO SearchFlightsOneWay - Providing departure date
+15-12-2020 12:09:46 INFO SearchFlightsOneWay - Searching flights using Search button

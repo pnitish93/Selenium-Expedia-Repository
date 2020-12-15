@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import com.expedia.base_test_packages.TestConfig;
 import com.expedia.page_classes.DataProviderClassOneWay;
 import com.expedia.page_classes.FlightsOneWay;
+import com.expedia.page_classes.FlightsResultPage;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -82,7 +83,7 @@ public class SearchFlightsOneWay extends TestConfig{
 	 * @throws InterruptedException
 	 */
 	@Test(dataProvider = "searchInputsOnlyFlights", dataProviderClass = DataProviderClassOneWay.class)
-	public void searchFlightsOneWayFutureDate(String from, String to, String date, String adultNos, String childrenNos, String infantNos) throws InterruptedException {
+	public void isOneWayFlightSearchSuccess(String from, String to, String date, String adultNos, String childrenNos, String infantNos) throws InterruptedException {
 		//flightSearchOperation(from, to, date); 
 		FlightsOneWay oneWaySearchPage = new FlightsOneWay(driver);
 		//oneWaySearchPage.selectTravellers(Integer.parseInt(adultNos), Integer.parseInt(childrenNos), Integer.parseInt(infantNos));
@@ -91,12 +92,10 @@ public class SearchFlightsOneWay extends TestConfig{
 		oneWaySearchPage.provideOriginCity(from);
 		oneWaySearchPage.provideDestCity(to);
 		oneWaySearchPage.provideDepartDate(date);
-		oneWaySearchPage.searchFlights();
+		FlightsResultPage flOneWayResult = oneWaySearchPage.searchFlights();
 		Thread.sleep(2000);
 		// Explicit Wait waits for the appearance of result section
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		WebElement resultText = wait.until(ExpectedConditions
-				.visibilityOfElementLocated(By.xpath("//span[contains(text(), 'Select your departure to')]")));
+		Assert.assertTrue(flOneWayResult.isFlightResultsAppearing());
 		//--Optional--Uncomment the following method call to scroll through results within 10 times (specified in argument)
 		//scrollDownResults(5);
 		//--Optional--Uncomment the following method call to scroll till the end

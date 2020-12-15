@@ -238,9 +238,10 @@ public class FlightsOneWay {
 	 * Clicks on submit button after entering all the necessary details 
 	 * @return void
 	 */
-	public void searchFlights() {
+	public FlightsResultPage searchFlights() {
 		flightSearchButton.click();
 		log.info("Searching flights using Search button");
+		return new FlightsResultPage(driver);
 	}
 	
 	/*public void selectTravellers(int adults, int children, int infants) {
