@@ -13,6 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.expedia.base_page_packages.CustomDriver;
 import com.expedia.test_classes.SearchFlightsOneWay;
 import com.expedia.utility.GeneralUtility;
 
@@ -22,9 +23,9 @@ import com.expedia.utility.GeneralUtility;
  *
  */
 
-public class FlightsOneWay {
+public class FlightsOneWay extends CustomDriver {
 	WebDriver driver;
-	public static Logger log = LogManager.getLogger(SearchFlightsOneWay.class.getName());
+	public static Logger log = LogManager.getLogger(FlightsOneWay.class.getName());
 	
 	@FindBy(xpath = "//a[@aria-controls='wizard-flight-pwa']")
 	private WebElement flightsTab;
@@ -103,6 +104,7 @@ public class FlightsOneWay {
 	 * @param driver
 	 */
 	public FlightsOneWay(WebDriver driver) {
+		super(driver);
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
@@ -113,7 +115,7 @@ public class FlightsOneWay {
 	 * @param void
 	 */
 	public void clickFlightsTab() {
-		flightsTab.click();
+		clickAndWait(flightsTab);
 		log.info("clicking flights tab");
 	}
 	
@@ -123,7 +125,7 @@ public class FlightsOneWay {
 	 * @param void
 	 */
 	public void clickOneWay() {
-		oneWayButton.click();
+		clickAndWait(oneWayButton);
 		log.info("clicking 'one-way' in flights tab");
 	}
 	
@@ -133,10 +135,9 @@ public class FlightsOneWay {
 	 * @param cityValue
 	 */
 	public void provideOriginCity(String cityValue) {
-		originCityButton.click();
-		originCityField.clear();
-		originCityField.sendKeys(cityValue);
-		originCityField.sendKeys(Keys.ENTER);
+		clickAndWait(originCityButton);
+		sendTextToElement(originCityField, true, cityValue);
+		sendSpecialKeyStrokes(originCityField, Keys.ENTER);
 		log.info("providing origin city for one - way flights # " + cityValue);
 		//GeneralUtility.findCity(cityValue, "origin", driver);
 	}
