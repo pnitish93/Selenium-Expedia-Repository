@@ -73,33 +73,50 @@ public class SearchFlightsOneWay extends TestConfig{
 		WebElement verizonLink = driver.findElement(By.xpath("//img[contains(@alt, 'Verizon Cybertrust Security')]"));
 		jsExe.executeScript("arguments[0].scrollIntoView(true);", verizonLink);
 	}
+	
+	/**
+	 * Method to perform common operation for the one way flights test cases
+	 * @param from - source city
+	 * @param to - destination city
+	 * @param oneWayFlightsPage - instance of one way flights page
+	 */
+	public void doCommonOperation(String from, String to, FlightsOneWay oneWayFlightsPage) {
+		oneWayFlightsPage.clickFlightsTab();
+		oneWayFlightsPage.clickOneWay();
+		oneWayFlightsPage.provideOriginCity(from);
+		oneWayFlightsPage.provideDestCity(to);
+	}
 
 	/**
 	 * Test case to search one way flights with a future date without any traveller details 
+	 * 
+	 * @param from - source city
+	 * @param to - destination city
+	 * @param date - date of journey - future date
+	 */
+	@Test(dataProvider = "searchOneWayFlightsPosDate", dataProviderClass = DataProviderClassOneWay.class)
+	public void isOneWayFlightSearchSuccess(String from, String to, String date){
+		FlightsOneWay oneWaySearchPage = new FlightsOneWay(driver);
+		doCommonOperation(from, to, oneWaySearchPage);
+		oneWaySearchPage.provideDepartDate(date);
+		FlightsResultPage flOneWayResult = oneWaySearchPage.searchFlights();
+		Assert.assertTrue(flOneWayResult.isFlightResultsAppearing());
+	}
+	
+	/**
+	 * Test case to search one way flights with the default populated date
 	 * 
 	 * @param from
 	 * @param to
 	 * @param date
 	 * @throws InterruptedException
 	 */
-	@Test(dataProvider = "searchInputsOnlyFlights", dataProviderClass = DataProviderClassOneWay.class)
-	public void isOneWayFlightSearchSuccess(String from, String to, String date, String adultNos, String childrenNos, String infantNos) throws InterruptedException {
-		//flightSearchOperation(from, to, date); 
+	@Test(dataProvider = "searchOneWayFlightsPos", dataProviderClass = DataProviderClassOneWay.class)
+	public void isOneWayFlightSearchSuccess(String from, String to) {
 		FlightsOneWay oneWaySearchPage = new FlightsOneWay(driver);
-		//oneWaySearchPage.selectTravellers(Integer.parseInt(adultNos), Integer.parseInt(childrenNos), Integer.parseInt(infantNos));
-		oneWaySearchPage.clickFlightsTab();
-		oneWaySearchPage.clickOneWay();
-		oneWaySearchPage.provideOriginCity(from);
-		oneWaySearchPage.provideDestCity(to);
-		oneWaySearchPage.provideDepartDate(date);
+		doCommonOperation(from, to, oneWaySearchPage);
 		FlightsResultPage flOneWayResult = oneWaySearchPage.searchFlights();
-		Thread.sleep(2000);
-		// Explicit Wait waits for the appearance of result section
 		Assert.assertTrue(flOneWayResult.isFlightResultsAppearing());
-		//--Optional--Uncomment the following method call to scroll through results within 10 times (specified in argument)
-		//scrollDownResults(5);
-		//--Optional--Uncomment the following method call to scroll till the end
-		//scrollToEnd();
 	}
 
 	/**

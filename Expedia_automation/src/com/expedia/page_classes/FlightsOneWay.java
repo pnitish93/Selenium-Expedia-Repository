@@ -14,6 +14,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.expedia.test_classes.SearchFlightsOneWay;
+import com.expedia.utility.GeneralUtility;
 
 /**
  * @author Nitish Panda
@@ -160,7 +161,7 @@ public class FlightsOneWay {
 	 * @param date
 	 * @throws InterruptedException 
 	 */
-	public void provideDepartDate(String date) throws InterruptedException {
+	public void provideDepartDate(String date) {
 		departDateButton.click();
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		WebElement calElement = driver.findElement(By.xpath("//div[@class = 'uitk-new-date-picker date-picker-menu']"));
@@ -170,7 +171,7 @@ public class FlightsOneWay {
 		WebElement nextButton = driver.findElement(By.xpath("//button[contains(@class, 'uitk-button-paging')][position()=2]"));
 		try {
 			WebElement dateEle = driver.findElement(By.xpath(dateElement));
-			Thread.sleep(1000);
+			GeneralUtility.doHardWaitFor(1000);
 			dateEle.click();
 			doneButton.click();
 		}
@@ -179,7 +180,7 @@ public class FlightsOneWay {
 			do {
 				nextButton.click();
 				dateElementFind = driver.findElements(By.xpath(dateElement));
-				Thread.sleep(1000);
+				GeneralUtility.doHardWaitFor(1000);
 				if(dateElementFind.size() != 0) {
 					dateElementFind.get(0).click();
 					doneButton.click();
@@ -241,6 +242,7 @@ public class FlightsOneWay {
 	public FlightsResultPage searchFlights() {
 		flightSearchButton.click();
 		log.info("Searching flights using Search button");
+		GeneralUtility.doHardWaitFor(3000);
 		return new FlightsResultPage(driver);
 	}
 	

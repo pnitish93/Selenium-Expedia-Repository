@@ -1,4 +1,4 @@
-package com.expedia.page_classes;
+package com.expedia.utility;
 
 import java.util.List;
 
@@ -31,6 +31,16 @@ public class GeneralUtility {
 				break;
 			}
 		}*/
+	}
+	
+	public static void doHardWaitFor(long timeInMilliSecs) {
+		try{
+			Thread.sleep(timeInMilliSecs);
+		}
+		catch(InterruptedException e) {
+			System.out.println("An exception occured. Please review your code");
+			e.printStackTrace();
+		}
 	}
 	
 	/**

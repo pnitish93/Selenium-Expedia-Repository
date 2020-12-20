@@ -3,16 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="flights.SearchFlightsOneWay">
+      <class name="com.expedia.test_classes.SearchFlightsOneWay">
         <methods>
+          <include name="isOneWayFlightSearchSuccess"/>
+          <include name="isOneWayFlightSearchSuccess"/>
           <include name="beforeClass"/>
-          <include name="f"/>
           <include name="beforeMethod"/>
-          <include name="searchFlightsOnlyPositive" invocation-numbers="0"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
         </methods>
-      </class> <!-- flights.SearchFlightsOneWay -->
+      </class> <!-- com.expedia.test_classes.SearchFlightsOneWay -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

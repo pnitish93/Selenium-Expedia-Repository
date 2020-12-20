@@ -16,7 +16,7 @@ public class FlightsResultPage {
 		PageFactory.initElements(dr, this);
 	}
 	
-	public static boolean isFlightResultsAppearing() {
+	public boolean isFlightResultsAppearing() {
 		return flightsResultText.isDisplayed();
 	}
 	
