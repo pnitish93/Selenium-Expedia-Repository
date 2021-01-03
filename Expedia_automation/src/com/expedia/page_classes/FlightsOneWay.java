@@ -48,6 +48,9 @@ public class FlightsOneWay extends CustomDriver {
 	@FindBy(id = "d1-btn")
 	private WebElement departDateButton;
 	
+	@FindBy(xpath = "//div[@class = 'uitk-new-date-picker date-picker-menu']")
+	private WebElement calendarElement;
+	
 	/*@FindBy(xpath="//a[@data-testid='travelers-field']")
 	private WebElement travellers;
 	
@@ -115,7 +118,7 @@ public class FlightsOneWay extends CustomDriver {
 	 * @param void
 	 */
 	public void clickFlightsTab() {
-		clickAndWait(flightsTab);
+		clickWithoutWait(flightsTab);
 		log.info("clicking flights tab");
 	}
 	
@@ -125,7 +128,7 @@ public class FlightsOneWay extends CustomDriver {
 	 * @param void
 	 */
 	public void clickOneWay() {
-		clickAndWait(oneWayButton);
+		clickWithoutWait(oneWayButton);
 		log.info("clicking 'one-way' in flights tab");
 	}
 	
@@ -135,7 +138,7 @@ public class FlightsOneWay extends CustomDriver {
 	 * @param cityValue
 	 */
 	public void provideOriginCity(String cityValue) {
-		clickAndWait(originCityButton);
+		clickWithoutWait(originCityButton);
 		sendTextToElement(originCityField, true, cityValue);
 		sendSpecialKeyStrokes(originCityField, Keys.ENTER);
 		log.info("providing origin city for one - way flights # " + cityValue);
@@ -148,10 +151,9 @@ public class FlightsOneWay extends CustomDriver {
 	 * @param cityValue
 	 */
 	public void provideDestCity(String cityValue) {
-		destinationCityButton.click();
-		destinationCityField.clear();
-		destinationCityField.sendKeys(cityValue);
-		destinationCityField.sendKeys(Keys.ENTER);
+		clickWithoutWait(destinationCityButton);
+		sendTextToElement(destinationCityField, true, cityValue);
+		sendSpecialKeyStrokes(destinationCityField, Keys.ENTER);
 		log.info("providing destination city for one - way flights as " + cityValue);
 		//GeneralUtility.findCity(cityValue, "destination", driver);
 	}
@@ -163,39 +165,8 @@ public class FlightsOneWay extends CustomDriver {
 	 * @throws InterruptedException 
 	 */
 	public void provideDepartDate(String date) {
-		departDateButton.click();
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		WebElement calElement = driver.findElement(By.xpath("//div[@class = 'uitk-new-date-picker date-picker-menu']"));
-		js.executeScript("window.scrollBy(0, 250);");
-		String dateElement = "//button[@aria-label='"+date+"']";
-		WebElement doneButton = driver.findElement(By.xpath("//span[text()='Done']"));
-		WebElement nextButton = driver.findElement(By.xpath("//button[contains(@class, 'uitk-button-paging')][position()=2]"));
-		try {
-			WebElement dateEle = driver.findElement(By.xpath(dateElement));
-			GeneralUtility.doHardWaitFor(1000);
-			dateEle.click();
-			doneButton.click();
-		}
-		catch(NoSuchElementException e) {
-			List<WebElement> dateElementFind;
-			do {
-				nextButton.click();
-				dateElementFind = driver.findElements(By.xpath(dateElement));
-				GeneralUtility.doHardWaitFor(1000);
-				if(dateElementFind.size() != 0) {
-					dateElementFind.get(0).click();
-					doneButton.click();
-					break;
-				}
-			} while(dateElementFind.size() == 0);
-		}
-		log.info("Providing departure date");
-		
-		/*int[] dateArr = GeneralUtility.splitDate(date);
-		Thread.sleep(2000);
-		departDateButton.click();
-		WebElement dateButton = GeneralUtility.pickDates(dateArr[2], dateArr[1], dateArr[0], driver);
-		dateButton.click();*/
+		clickWithoutWait(departDateButton);
+		clickDateElementIfExists(date);
 	}
 	
 	/**
@@ -241,7 +212,7 @@ public class FlightsOneWay extends CustomDriver {
 	 * @return void
 	 */
 	public FlightsResultPage searchFlights() {
-		flightSearchButton.click();
+		clickWithoutWait(flightSearchButton);
 		log.info("Searching flights using Search button");
 		GeneralUtility.doHardWaitFor(3000);
 		return new FlightsResultPage(driver);
@@ -293,12 +264,4 @@ public class FlightsOneWay extends CustomDriver {
 		WebElement childAgeSection = driver.findElement(By.className("cols-nested children-data gcw-toggles-fields available-for-flights"));
 		List<WebElement> childAgeDropdowns = childAgeSection.findElements(By.xpath("//div[contains(@class,'children-data') and @data-gcw-field-available-for-sub-nav-option='roundtrip,oneway,multi']//label[not(contains(@class, 'gcw-disabled'))]//select"));
 	}*/
-	
-	public void clearPopulatedCities() throws InterruptedException {
-		Thread.sleep(1000);
-		originCityButton.click();
-		originCityField.clear();
-		destinationCityButton.click();
-		destinationCityField.clear();
-	}
 }
