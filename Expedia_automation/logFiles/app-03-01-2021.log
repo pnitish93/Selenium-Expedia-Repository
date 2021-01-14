@@ -1,0 +1,36 @@
+03-01-2021 19:00:57 INFO FlightsOneWay - clicking flights tab
+03-01-2021 19:00:57 INFO FlightsOneWay - clicking 'one-way' in flights tab
+03-01-2021 19:00:59 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+03-01-2021 19:00:59 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+03-01-2021 19:01:03 INFO FlightsOneWay - Searching flights using Search button
+03-01-2021 19:01:16 INFO FlightsOneWay - clicking flights tab
+03-01-2021 19:01:17 INFO FlightsOneWay - clicking 'one-way' in flights tab
+03-01-2021 19:01:17 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+03-01-2021 19:01:18 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+03-01-2021 19:01:20 INFO FlightsOneWay - Providing departure date
+03-01-2021 19:01:24 INFO FlightsOneWay - Searching flights using Search button
+03-01-2021 22:18:28 INFO FlightsOneWay - clicking flights tab
+03-01-2021 22:18:28 INFO FlightsOneWay - clicking 'one-way' in flights tab
+03-01-2021 22:18:29 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+03-01-2021 22:18:30 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+03-01-2021 22:18:33 INFO FlightsOneWay - Searching flights using Search button
+03-01-2021 22:18:47 INFO FlightsOneWay - clicking flights tab
+03-01-2021 22:18:47 INFO FlightsOneWay - clicking 'one-way' in flights tab
+03-01-2021 22:18:48 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+03-01-2021 22:18:48 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+03-01-2021 22:18:55 INFO FlightsOneWay - Searching flights using Search button
+03-01-2021 22:26:30 INFO FlightsOneWay - clicking flights tab
+03-01-2021 22:26:30 INFO FlightsOneWay - clicking 'one-way' in flights tab
+03-01-2021 22:26:31 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+03-01-2021 22:26:31 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+03-01-2021 22:26:31 INFO FlightsOneWay - Searching flights using Search button
+03-01-2021 22:28:24 INFO FlightsOneWay - clicking flights tab
+03-01-2021 22:28:24 INFO FlightsOneWay - clicking 'one-way' in flights tab
+03-01-2021 22:28:25 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+03-01-2021 22:28:25 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+03-01-2021 22:28:32 INFO FlightsOneWay - Searching flights using Search button
+03-01-2021 22:28:44 INFO FlightsOneWay - clicking flights tab
+03-01-2021 22:28:44 INFO FlightsOneWay - clicking 'one-way' in flights tab
+03-01-2021 22:28:44 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+03-01-2021 22:28:45 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+03-01-2021 22:28:52 INFO FlightsOneWay - Searching flights using Search button
