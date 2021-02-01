@@ -51,54 +51,6 @@ public class FlightsOneWay extends CustomDriver {
 	@FindBy(xpath = "//div[@class = 'uitk-new-date-picker date-picker-menu']")
 	private WebElement calendarElement;
 	
-	/*@FindBy(xpath="//a[@data-testid='travelers-field']")
-	private WebElement travellers;
-	
-	@FindBy(id = "infant-input-0")
-	private WebElement infantNos;
-	
-	@FindBy(id = "child-input-0")
-	private WebElement childrenNos;
-	
-	@FindBy(id = "adult-input-0")
-	private WebElement adultNos;
-	
-	@FindBy(xpath = "(//div[@class='uitk-flex uitk-flex-item uitk-step-input-controls'])[1]//button[2]")
-	private WebElement adultIncrButton;
-	
-	@FindBy(xpath = "(//div[@class='uitk-flex uitk-flex-item uitk-step-input-controls'])[2]//button[2]")
-	private WebElement childIncrButton;
-	
-	@FindBy(xpath = "(//div[@class='uitk-flex uitk-flex-item uitk-step-input-controls'])[2]//button[1]")
-	private WebElement childDecrButton;
-	
-	@FindBy(xpath = "(//div[@class='uitk-flex uitk-flex-item uitk-step-input-controls'])[3]//button[2]")
-	private WebElement infantIncrButton;
-	
-	@FindBy(xpath = "(//div[@class='uitk-flex uitk-flex-item uitk-step-input-controls'])[3]//button[1]")
-	private WebElement infantDecrButton;
-	
-	@FindBy(xpath = "(//div[@class='uitk-flex uitk-flex-item uitk-step-input-controls'])[1]//button[1]")
-	private WebElement adultDecrButton;
-	
-	@FindBy(xpath = "(//button[@type = 'button' and contains(@class, 'gcw-traveler-amount')])[position() = 2]")
-	private WebElement travellersForHotel;
-	
-	@FindBy(xpath = "//button[text()='Done']")
-	private WebElement submitTraveller;
-	
-	@FindBy(id = "flight-add-hotel-checkbox-hp-flight")
-	private WebElement hotelCheckBox;
-	
-	@FindBy(xpath = "//input[@id='flight-hotel-checkin-hp-flight']")
-	private WebElement checkInDate;
-	
-	@FindBy(xpath = "//input[@id='flight-hotel-checkout-hp-flight']")
-	private WebElement checkOutDate;
-	
-	@FindBy(xpath = "//div[@class='hero-banner-box siteId-27 cf hideClassicDcol']")
-	private WebElement outside;*/
-	
 	@FindBy(xpath = "//button[text()='Search']")
 	private WebElement flightSearchButton;
 	
@@ -170,44 +122,6 @@ public class FlightsOneWay extends CustomDriver {
 	}
 	
 	/**
-	 * Checks the 'Add a hotel' option
-	 */
-	/*public void checkHotelOption() {
-		if(hotelCheckBox.isSelected()) {
-			hotelCheckBox.click();
-		}
-		hotelCheckBox.click();
-	}*/
-	
-	/**
-	 * Provides the hotel check in date
-	 * @param date
-	 * @throws InterruptedException 
-	 */
-	/*public void provideCheckInDate(String date) throws InterruptedException {
-		checkInDate.clear();
-		int[] dateArr = GeneralUtility.splitDate(date);
-		Thread.sleep(2000);
-		checkInDate.click();
-		WebElement dateButton = GeneralUtility.pickDates(dateArr[2], dateArr[1], dateArr[0], driver);
-		dateButton.click();
-	}*/
-	
-	/**
-	 * Provides the hotel check out date
-	 * @param date
-	 * @throws InterruptedException 
-	 */
-	/*public void provideCheckOutDate(String date) throws InterruptedException {
-		checkOutDate.clear();
-		int[] dateArr = GeneralUtility.splitDate(date);
-		Thread.sleep(2000);
-		checkOutDate.click();
-		WebElement dateButton = GeneralUtility.pickDates(dateArr[2], dateArr[1], dateArr[0], driver);
-		dateButton.click();
-	}*/
-	
-	/**
 	 * Clicks on submit button after entering all the necessary details 
 	 * @return void
 	 */
@@ -217,51 +131,4 @@ public class FlightsOneWay extends CustomDriver {
 		GeneralUtility.doHardWaitFor(3000);
 		return new FlightsResultPage(driver);
 	}
-	
-	/*public void selectTravellers(int adults, int children, int infants) {
-		travellers.click();
-		int NumberOfAdults = Integer.parseInt(adultNos.getAttribute("value"));
-		int NumberOfChildren = Integer.parseInt(childrenNos.getAttribute("value"));
-		int NumberOfInfants = Integer.parseInt(infantNos.getAttribute("value"));
-		if(NumberOfAdults < adults) {
-			for(int i=NumberOfAdults; i<adults; i++) {
-				adultIncrButton.click();
-			}
-		}
-		else if(NumberOfAdults > adults) {
-			for(int i=NumberOfAdults; i>adults; i--) {
-				adultDecrButton.click();
-			}
-		}
-		if(NumberOfChildren < children) {
-			for(int i=NumberOfChildren; i<children; i++) {
-				childIncrButton.click();
-			}
-		}
-		else if(NumberOfChildren > children) {
-			for(int i=NumberOfChildren; i>children; i--) {
-				childDecrButton.click();
-			}
-		}
-		if(NumberOfInfants < infants) {
-			for(int i=NumberOfInfants; i<infants; i++) {
-				infantIncrButton.click();
-			}
-		}
-		else if(NumberOfInfants > infants) {
-			for(int i=NumberOfInfants; i>infants; i--) {
-				infantDecrButton.click();
-			}
-		}
-		submitTraveller.click();
-	//Xpath for the list of age dropdown elements for children in one way only flights
-	//div[contains(@class,'children-data') and @data-gcw-field-available-for-sub-nav-option='roundtrip,oneway,multi']//label[not(contains(@class, 'gcw-disabled'))]//select
-	}
-	
-	public void selectAgeOfMinors(String childrenAges, String infantAges) {
-		String[] childAgeList = GeneralUtility.getAges(childrenAges);
-		String[] infantAgeList = GeneralUtility.getAges(infantAges);
-		WebElement childAgeSection = driver.findElement(By.className("cols-nested children-data gcw-toggles-fields available-for-flights"));
-		List<WebElement> childAgeDropdowns = childAgeSection.findElements(By.xpath("//div[contains(@class,'children-data') and @data-gcw-field-available-for-sub-nav-option='roundtrip,oneway,multi']//label[not(contains(@class, 'gcw-disabled'))]//select"));
-	}*/
 }

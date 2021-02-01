@@ -1,10 +1,137 @@
-14-01-2021 10:41:51 INFO FlightsOneWay - clicking flights tab
-14-01-2021 10:41:52 INFO FlightsOneWay - clicking 'one-way' in flights tab
-14-01-2021 10:41:54 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
-14-01-2021 10:41:57 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
-14-01-2021 10:42:13 INFO FlightsOneWay - Searching flights using Search button
-14-01-2021 10:42:27 INFO FlightsOneWay - clicking flights tab
-14-01-2021 10:42:27 INFO FlightsOneWay - clicking 'one-way' in flights tab
-14-01-2021 10:42:28 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
-14-01-2021 10:42:28 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
-14-01-2021 10:42:37 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 09:25:46 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:25:46 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:25:47 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+01-02-2021 09:25:48 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+01-02-2021 09:25:53 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 09:38:57 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:38:57 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:38:58 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+01-02-2021 09:38:58 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+01-02-2021 09:39:02 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 09:39:16 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:39:16 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:39:16 INFO FlightsOneWay - providing origin city for one - way flights # Hyderabad
+01-02-2021 09:39:17 INFO FlightsOneWay - providing destination city for one - way flights as London
+01-02-2021 09:39:20 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 09:39:33 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:39:33 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:39:34 INFO FlightsOneWay - providing origin city for one - way flights # New Delhi
+01-02-2021 09:39:35 INFO FlightsOneWay - providing destination city for one - way flights as Bangkok
+01-02-2021 09:39:38 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 09:39:49 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:39:49 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:39:50 INFO FlightsOneWay - providing origin city for one - way flights # Kolkata
+01-02-2021 09:39:51 INFO FlightsOneWay - providing destination city for one - way flights as Tokyo
+01-02-2021 09:39:53 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 09:40:05 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:40:05 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:40:05 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+01-02-2021 09:40:06 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+01-02-2021 09:40:12 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 09:40:25 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:40:25 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:40:26 INFO FlightsOneWay - providing origin city for one - way flights # Mumbai
+01-02-2021 09:40:26 INFO FlightsOneWay - providing destination city for one - way flights as Trivandrum
+01-02-2021 09:40:30 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 09:40:42 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:40:43 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:40:43 INFO FlightsOneWay - providing origin city for one - way flights # Chennai
+01-02-2021 09:40:44 INFO FlightsOneWay - providing destination city for one - way flights as Chicago
+01-02-2021 09:42:22 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:42:25 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:42:34 INFO FlightsOneWay - providing origin city for one - way flights # Bangalore
+01-02-2021 09:42:44 INFO FlightsOneWay - providing destination city for one - way flights as Bombay
+01-02-2021 09:43:10 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:43:13 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:43:17 INFO FlightsOneWay - providing origin city for one - way flights # Bhubaneswar
+01-02-2021 09:43:17 INFO FlightsOneWay - providing destination city for one - way flights as Delhi
+01-02-2021 09:49:04 INFO FlightsOneWay - clicking flights tab
+01-02-2021 09:49:05 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 09:49:05 INFO FlightsOneWay - providing origin city for one - way flights # Chennai
+01-02-2021 09:49:06 INFO FlightsOneWay - providing destination city for one - way flights as Chicago
+01-02-2021 10:00:35 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:00:35 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:00:36 INFO FlightsOneWay - providing origin city for one - way flights # Chennai
+01-02-2021 10:00:37 INFO FlightsOneWay - providing destination city for one - way flights as Chicago
+01-02-2021 10:06:49 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:06:49 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:06:50 INFO FlightsOneWay - providing origin city for one - way flights # Chennai
+01-02-2021 10:06:50 INFO FlightsOneWay - providing destination city for one - way flights as Chicago
+01-02-2021 10:07:14 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:10:01 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:10:02 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:10:02 INFO FlightsOneWay - providing origin city for one - way flights # Chennai
+01-02-2021 10:10:03 INFO FlightsOneWay - providing destination city for one - way flights as Chicago
+01-02-2021 10:11:36 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:12:28 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:12:29 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:12:29 INFO FlightsOneWay - providing origin city for one - way flights # Chennai
+01-02-2021 10:12:30 INFO FlightsOneWay - providing destination city for one - way flights as Chicago
+01-02-2021 10:13:01 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:13:15 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:13:15 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:13:16 INFO FlightsOneWay - providing origin city for one - way flights # Bangalore
+01-02-2021 10:13:17 INFO FlightsOneWay - providing destination city for one - way flights as Bombay
+01-02-2021 10:13:30 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:13:45 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:13:45 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:13:46 INFO FlightsOneWay - providing origin city for one - way flights # Bhubaneswar
+01-02-2021 10:13:47 INFO FlightsOneWay - providing destination city for one - way flights as Delhi
+01-02-2021 10:14:10 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:19:57 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:20:02 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:20:08 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+01-02-2021 10:20:13 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+01-02-2021 10:20:18 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:20:31 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:20:34 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:20:43 INFO FlightsOneWay - providing origin city for one - way flights # Hyderabad
+01-02-2021 10:20:53 INFO FlightsOneWay - providing destination city for one - way flights as London
+01-02-2021 10:20:56 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:21:09 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:21:12 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:21:21 INFO FlightsOneWay - providing origin city for one - way flights # New Delhi
+01-02-2021 10:21:30 INFO FlightsOneWay - providing destination city for one - way flights as Bangkok
+01-02-2021 10:21:33 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:21:46 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:21:49 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:21:59 INFO FlightsOneWay - providing origin city for one - way flights # Kolkata
+01-02-2021 10:22:08 INFO FlightsOneWay - providing destination city for one - way flights as Tokyo
+01-02-2021 10:22:11 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:22:24 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:22:27 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:23:29 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:23:29 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:23:30 INFO FlightsOneWay - providing origin city for one - way flights # Kozhikode
+01-02-2021 10:23:30 INFO FlightsOneWay - providing destination city for one - way flights as Dubai
+01-02-2021 10:23:36 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:23:49 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:23:49 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:23:50 INFO FlightsOneWay - providing origin city for one - way flights # Hyderabad
+01-02-2021 10:23:50 INFO FlightsOneWay - providing destination city for one - way flights as London
+01-02-2021 10:23:56 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:24:08 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:24:08 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:24:09 INFO FlightsOneWay - providing origin city for one - way flights # New Delhi
+01-02-2021 10:24:09 INFO FlightsOneWay - providing destination city for one - way flights as Bangkok
+01-02-2021 10:24:13 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:24:25 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:24:25 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:24:26 INFO FlightsOneWay - providing origin city for one - way flights # Kolkata
+01-02-2021 10:24:26 INFO FlightsOneWay - providing destination city for one - way flights as Tokyo
+01-02-2021 10:24:31 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:24:44 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:24:44 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:24:45 INFO FlightsOneWay - providing origin city for one - way flights # Chennai
+01-02-2021 10:24:45 INFO FlightsOneWay - providing destination city for one - way flights as Chicago
+01-02-2021 10:25:09 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:25:21 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:25:21 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:25:22 INFO FlightsOneWay - providing origin city for one - way flights # Bangalore
+01-02-2021 10:25:22 INFO FlightsOneWay - providing destination city for one - way flights as Bombay
+01-02-2021 10:25:33 INFO FlightsOneWay - Searching flights using Search button
+01-02-2021 10:25:45 INFO FlightsOneWay - clicking flights tab
+01-02-2021 10:25:45 INFO FlightsOneWay - clicking 'one-way' in flights tab
+01-02-2021 10:25:46 INFO FlightsOneWay - providing origin city for one - way flights # Bhubaneswar
+01-02-2021 10:25:46 INFO FlightsOneWay - providing destination city for one - way flights as Delhi
+01-02-2021 10:26:08 INFO FlightsOneWay - Searching flights using Search button

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="expedia_fl_suite">
+	<test name="expedia_fl_test">
+		<classes>
+			<class name="com.expedia.test_classes.SearchFlightsOneWay" />
+		</classes>
+	</test>
+</suite>

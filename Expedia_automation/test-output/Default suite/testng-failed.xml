@@ -5,9 +5,8 @@
     <classes>
       <class name="com.expedia.test_classes.SearchFlightsOneWay">
         <methods>
-          <include name="isOneWayFlightSearchSuccess" invocation-numbers="0"/>
-          <include name="isOneWayFlightSearchSuccess"/>
           <include name="beforeClass"/>
+          <include name="isOneWayFlightSearchSuccessWithDate" invocation-numbers="0"/>
           <include name="baseTest"/>
           <include name="beforeMethod"/>
           <include name="afterClass"/>

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [expedia_fl_suite]">
+  <test name="expedia_fl_test(failed)">
     <classes>
       <class name="com.expedia.test_classes.SearchFlightsOneWay">
         <methods>
           <include name="beforeClass"/>
-          <include name="isOneWayFlightSearchSuccessWithDate" invocation-numbers="0"/>
-          <include name="baseTest"/>
+          <include name="isOneWayFlightSearchSuccessWithDate" invocation-numbers="0 1 2 3 4"/>
           <include name="beforeMethod"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.expedia.test_classes.SearchFlightsOneWay -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- expedia_fl_test(failed) -->
+</suite> <!-- Failed suite [expedia_fl_suite] -->

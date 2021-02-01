@@ -1,82 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="131120" started-at="2021-01-14T05:10:44Z" finished-at="2021-01-14T05:12:55Z">
+  <suite name="Default suite" duration-ms="149405" started-at="2021-02-01T04:42:02Z" finished-at="2021-02-01T04:44:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="131120" started-at="2021-01-14T05:10:44Z" finished-at="2021-01-14T05:12:55Z">
+    <test name="Default test" duration-ms="149405" started-at="2021-02-01T04:42:02Z" finished-at="2021-02-01T04:44:31Z">
       <class name="com.expedia.test_classes.SearchFlightsOneWay">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="beforeClass" is-config="true" duration-ms="37058" started-at="2021-01-14T10:40:44Z" finished-at="2021-01-14T10:41:21Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="beforeClass" is-config="true" duration-ms="24973" started-at="2021-02-01T10:12:02Z" finished-at="2021-02-01T10:12:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2021-01-14T10:41:45Z" finished-at="2021-01-14T10:41:45Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2021-02-01T10:12:28Z" finished-at="2021-02-01T10:12:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="isOneWayFlightSearchSuccess(java.lang.String, java.lang.String)[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="isOneWayFlightSearchSuccess" duration-ms="31667" started-at="2021-01-14T10:41:45Z" data-provider="searchOneWayFlightsPos" finished-at="2021-01-14T10:42:16Z">
+        <test-method status="PASS" signature="isOneWayFlightSearchSuccessWithDate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="isOneWayFlightSearchSuccessWithDate" duration-ms="35718" started-at="2021-02-01T10:12:28Z" data-provider="searchOneWayFlightsPosDate" finished-at="2021-02-01T10:13:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Kozhikode]]>
+                <![CDATA[Chennai]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Dubai]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isOneWayFlightSearchSuccess -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="afterMethod" is-config="true" duration-ms="9804" started-at="2021-01-14T10:42:16Z" finished-at="2021-01-14T10:42:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="beforeMethod" is-config="true" duration-ms="24" started-at="2021-01-14T10:42:26Z" finished-at="2021-01-14T10:42:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="isOneWayFlightSearchSuccess(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="isOneWayFlightSearchSuccess" duration-ms="13678" started-at="2021-01-14T10:42:26Z" data-provider="searchOneWayFlightsPosDate" finished-at="2021-01-14T10:42:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kozhikode]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Dubai]]>
+                <![CDATA[Chicago]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[12 Jan 2021]]>
+                <![CDATA[6 Jun 2021]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isOneWayFlightSearchSuccess -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="afterMethod" is-config="true" duration-ms="9473" started-at="2021-01-14T10:42:40Z" finished-at="2021-01-14T10:42:49Z">
+        </test-method> <!-- isOneWayFlightSearchSuccessWithDate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="afterMethod" is-config="true" duration-ms="10171" started-at="2021-02-01T10:13:04Z" finished-at="2021-02-01T10:13:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="beforeMethod" is-config="true" duration-ms="26" started-at="2021-01-14T10:42:49Z" finished-at="2021-01-14T10:42:49Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2021-02-01T10:13:14Z" finished-at="2021-02-01T10:13:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="baseTest()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="baseTest" duration-ms="6" started-at="2021-01-14T10:42:49Z" finished-at="2021-01-14T10:42:49Z">
+        <test-method status="PASS" signature="isOneWayFlightSearchSuccessWithDate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="isOneWayFlightSearchSuccessWithDate" duration-ms="20115" started-at="2021-02-01T10:13:14Z" data-provider="searchOneWayFlightsPosDate" finished-at="2021-02-01T10:13:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bombay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 May 2021]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- baseTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="afterMethod" is-config="true" duration-ms="4166" started-at="2021-01-14T10:42:49Z" finished-at="2021-01-14T10:42:54Z">
+        </test-method> <!-- isOneWayFlightSearchSuccessWithDate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="afterMethod" is-config="true" duration-ms="10300" started-at="2021-02-01T10:13:34Z" finished-at="2021-02-01T10:13:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@36bc55de]" name="afterClass" is-config="true" duration-ms="1326" started-at="2021-01-14T10:42:54Z" finished-at="2021-01-14T10:42:55Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2021-02-01T10:13:44Z" finished-at="2021-02-01T10:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="isOneWayFlightSearchSuccessWithDate(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="isOneWayFlightSearchSuccessWithDate" duration-ms="29906" started-at="2021-02-01T10:13:44Z" data-provider="searchOneWayFlightsPosDate" finished-at="2021-02-01T10:14:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhubaneswar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6 Feb 2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isOneWayFlightSearchSuccessWithDate -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="afterMethod" is-config="true" duration-ms="11343" started-at="2021-02-01T10:14:14Z" finished-at="2021-02-01T10:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2021-02-01T10:14:26Z" finished-at="2021-02-01T10:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="baseTest()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="baseTest" duration-ms="2" started-at="2021-02-01T10:14:26Z" finished-at="2021-02-01T10:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="afterMethod" is-config="true" duration-ms="4356" started-at="2021-02-01T10:14:26Z" finished-at="2021-02-01T10:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.expedia.test_classes.SearchFlightsOneWay@5fe94a96]" name="afterClass" is-config="true" duration-ms="1039" started-at="2021-02-01T10:14:30Z" finished-at="2021-02-01T10:14:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
