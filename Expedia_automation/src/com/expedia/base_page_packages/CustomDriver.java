@@ -16,7 +16,7 @@ import com.expedia.utility.GeneralUtility;
 public class CustomDriver {
 	WebDriver driver;
 	JavascriptExecutor jsExe;
-	static Logger log = LogManager.getLogger(CustomDriver.class.getName());
+	static Logger logCD = LogManager.getLogger(CustomDriver.class.getName());
 	List<Integer> displayedMonthNumbers;
 	List<Integer> displayedYears;
 
@@ -52,10 +52,10 @@ public class CustomDriver {
 			} else if (byType.equalsIgnoreCase("name")) {
 				byValue = By.name(locator);
 			} else {
-				log.error("Not a valid locator.");
+				logCD.error("Not a valid locator.");
 			}
 		} catch (Exception e) {
-			log.error(e.getMessage());
+			logCD.error(e.getMessage());
 		}
 		return byValue;
 	}
@@ -75,7 +75,7 @@ public class CustomDriver {
 		try {
 			webEle = driver.findElement(getByType(locatorType, locator));
 		} catch (Exception e) {
-			log.error(e.getMessage());
+			logCD.error(e.getMessage());
 		}
 		return webEle;
 	}
@@ -109,7 +109,7 @@ public class CustomDriver {
 				GeneralUtility.doHardWaitFor(waitTimeInMilliSecs);
 			}
 		} catch (Exception e) {
-			log.error("Cannot click on the element.");
+			logCD.error("Cannot click on the element.");
 		}
 
 	}
@@ -132,7 +132,7 @@ public class CustomDriver {
 		if (checkIfElementEnabled(ele)) {
 			clickWithoutWait(ele);
 		} else if (!checkIfElementEnabled(ele)) {
-			log.error("Element is disabled and hence cannot be clicked.");
+			logCD.error("Element is disabled and hence cannot be clicked.");
 		}
 	}
 
@@ -180,9 +180,9 @@ public class CustomDriver {
 				element.clear();
 			}
 			element.sendKeys(text);
-			log.info("Text entered to element.");
+			logCD.info("Text entered to element.");
 		} catch (Exception e) {
-			log.error("Cannot type text in the element.");
+			logCD.error("Cannot type text in the element.");
 		}
 
 	}
@@ -218,7 +218,7 @@ public class CustomDriver {
 		try {
 			element.sendKeys(keyStrokes);
 		} catch (Exception e) {
-			log.error("Special keystrokes cannot be sent to the element");
+			logCD.error("Special keystrokes cannot be sent to the element");
 		}
 	}
 
@@ -270,14 +270,14 @@ public class CustomDriver {
 			if (desiredMonthNum == -1)
 				throw new Exception();
 		} catch (Exception e) {
-			log.error("Proper month not provided.");
+			logCD.error("Proper month not provided.");
 		}
 		int desiredYear = Integer.parseInt(dateEles[2]);
 		List<WebElement> dateElements = findDateElements(date);
 		if (dateElements.size() != 0) {
 			clickWithoutWait(dateElements.get(0));
 			clickWithoutWait(doneButton);
-			log.info("Date element found and clicked on");
+			logCD.info("Date element found and clicked on");
 		} 
 		else {
 			do {
@@ -299,7 +299,7 @@ public class CustomDriver {
 					break;
 				}
 			} while (dateElements.size() == 0);
-			log.info("Providing departure date");
+			logCD.info("Providing departure date");
 		}
 	}
 }

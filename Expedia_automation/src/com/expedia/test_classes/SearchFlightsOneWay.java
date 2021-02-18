@@ -3,7 +3,7 @@ package com.expedia.test_classes;
 import org.testng.annotations.Test;
 
 import com.expedia.base_test_packages.TestConfig;
-import com.expedia.page_classes.DataProviderClassOneWay;
+import com.expedia.page_classes.DataProviderClassOneWayFlights;
 import com.expedia.page_classes.FlightsOneWay;
 import com.expedia.page_classes.FlightsResultPage;
 
@@ -46,7 +46,7 @@ public class SearchFlightsOneWay extends TestConfig{
 	 * @param to - destination city
 	 * @param date - date of journey - future date
 	 */
-	@Test(dataProvider = "searchOneWayFlightsPosDate", dataProviderClass = DataProviderClassOneWay.class)
+	@Test(dataProvider = "searchOneWayFlightsPosDate", dataProviderClass = DataProviderClassOneWayFlights.class)
 	public void isOneWayFlightSearchSuccessWithDate(String from, String to, String date){
 		FlightsOneWay oneWaySearchPage = new FlightsOneWay(driver);
 		doCommonOperation(from, to, oneWaySearchPage);
@@ -63,7 +63,7 @@ public class SearchFlightsOneWay extends TestConfig{
 	 * @param date
 	 * @throws InterruptedException
 	 */
-	@Test(dataProvider = "searchOneWayFlightsPos", dataProviderClass = DataProviderClassOneWay.class)
+	@Test(dataProvider = "searchOneWayFlightsPos", dataProviderClass = DataProviderClassOneWayFlights.class)
 	public void isOneWayFlightSearchSuccess(String from, String to) {
 		FlightsOneWay oneWaySearchPage = new FlightsOneWay(driver);
 		doCommonOperation(from, to, oneWaySearchPage);
